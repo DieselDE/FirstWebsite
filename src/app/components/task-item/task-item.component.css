@@ -1,0 +1,65 @@
+/* Task item container */
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s ease;
+}
+
+  /* Background colors based on reminder status */
+  .task-item.reminder {
+    background-color: #007bff; /* Blue for tasks with reminders */
+  }
+
+  .task-item.no-reminder {
+    background-color: #4caf50; /* Green for tasks without reminders */
+  }
+
+/* Task text */
+.task-text {
+  flex: 1;
+  color: #ffffff;
+  font-size: 1.2em;
+  margin-right: 15px;
+}
+
+/* Task day */
+.task-day {
+  color: #b0b0b0;
+  font-size: 0.9em;
+}
+
+/* Reminder indicator */
+.reminder {
+  background-color: #61dafb;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+
+/* Buttons */
+.task-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  background: #61dafb;
+  color: black;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+  button:hover {
+    background: #52c6d9;
+    transform: scale(1.05);
+  }

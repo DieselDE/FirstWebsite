@@ -1,0 +1,14 @@
+<div class="task">
+  <h3>
+    {{task.text}}
+    <app-button
+            color="light-blue"
+            text="X"
+            (click) ="onDelete(task)"
+            >
+</app-button>
+  </h3>
+  <p>
+    {{task.day}}
+  </p>
+</div>
