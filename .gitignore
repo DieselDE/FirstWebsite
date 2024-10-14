@@ -40,9 +40,4 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
-
-# Some Rest
-/FileContentIndex/
-/v17
-/config
 /.vs/VSHelloWorld
