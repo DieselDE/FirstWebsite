@@ -10,8 +10,13 @@ export class TaskItemComponent {
 
   @Input() task!: Task;
   @Output() deleteTask: EventEmitter<Task> = new EventEmitter();
+  @Output() onToggleReminder: EventEmitter<Task> = new EventEmitter();
 
   onDelete(task: Task) {
     this.deleteTask.emit(task);
+  }
+
+  onToggle(task: Task) {
+    this.onToggleReminder.emit(task);
   }
 }
