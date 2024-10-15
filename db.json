@@ -1,16 +1,28 @@
 {
   "tasks": [
     {
-      "id": 7,
-      "text": "Prepare for presentation",
-      "day": "October 22, 2024",
-      "reminder": true
-    },
-    {
       "text": "test app",
       "day": "today",
       "reminder": true,
       "id": 8
+    },
+    {
+      "text": "temp",
+      "day": "blub",
+      "reminder": false,
+      "id": 9
+    },
+    {
+      "text": "yep",
+      "day": "today",
+      "reminder": false,
+      "id": 10
+    },
+    {
+      "text": "blub",
+      "day": "blubw",
+      "reminder": false,
+      "id": 11
     }
   ]
 }
